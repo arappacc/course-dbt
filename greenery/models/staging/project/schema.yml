@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_users
+    description: demographic information of users
+  - name: events
+    description: events and session information
+  - name: orders
+    description: orders information and details
+  - name: addresses
+    description: address information from address_ids
+  - name: products
+    description: information and inventory of products
+  - name: order_items
+    description: underlying items part of orders
+  - name: promos
+    description: promotional details
